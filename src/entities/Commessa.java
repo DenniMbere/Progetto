@@ -37,6 +37,12 @@ public class Commessa
 	public void setIdCliente(int idCliente) {
 		this.idCliente = idCliente;
 	}
+	@Override
+	public String toString() 
+	{
+		return "Commessa [codice=" + codice + ", nome=" + nome + ", matDip=" + matDip + ", idCliente=" + idCliente
+				+ "]";
+	}
 	
 	
 	
