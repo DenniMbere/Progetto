@@ -43,8 +43,11 @@ public class Commessa
 		return "Commessa [codice=" + codice + ", nome=" + nome + ", matDip=" + matDip + ", idCliente=" + idCliente
 				+ "]";
 	}
-	
-	
+
+	public String seiStronzo()
+	{
+		return "si";
+	}
 	
 
 }
